@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ss, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body >
+
+    
+
+    <form action="https://httpbin.org/post" method="post" style="background-color: bisque; width: 50%; text-align: center; margin: auto; ">
+
+        <h1 style="text-align: center;">Bank Application Registration Form</h1>
+    <br>
+        <h3>Full Name*</h3>
+
+        <select name="gender">
+            <option>Prefix</option>
+            <option value="mr">Mr</option>
+            <option value="mrs">Mrs</option>
+            <option value="ms">Ms</option>
+        </select>
+        
+        
+
+        <label for="first">First Name:</label>
+        <input type="text" id="first" placeholder="First Name" name="first" required> 
+        <label for="last">Last Name:</label>
+        <input type="text" id="last" placeholder="Last Name" name="last" required>
+        <br><br>
+
+        <h3>Father Name*</h3>
+
+        <label for="father">Father Name:</label>
+        <input type="text" id="father" required>
+        <br><br>
+
+        <h3>Mother Name*</h3>
+        <label for="mother">Mother Name:</label>
+        <input type="text" id="mother" required>
+        <br><br>
+        
+        <h3>Date Of Birth*</h3>
+        
+        <select name="month">
+            <option>Select Month</option>
+            <option value="jan">Jan</option>
+            <option value="feb">Feb</option>
+            <option value="mar">Mar</option>
+            <option value="apr">Apr</option>
+            <option value="may">May</option>
+            <option value="jun">Jun</option>
+            <option value="jul">Jul</option>
+            <option value="aug">Aug</option>
+            <option value="sept">Sept</option>
+            <option value="oct">Oct</option>
+            <option value="nov">Nov</option>
+            <option value="dec">Dec</option>
+        </select>
+        <select name="date">
+            <option>Select Date</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>         
+        </select>
+
+        <select name="year">
+            <option>Select Year</option>
+            <option value="1990" >1990</option>
+            <option value="1991" >1991</option>
+            <option value="1992" >1992</option>
+            <option value="1993" >1993</option>
+            <option value="1994" >1994</option>
+            <option value="1995" >1995</option>
+            <option value="1996" >1996</option>
+            <option value="1997" >1997</option>
+            <option value="1998" >1998</option>
+            <option value="1999" >1999</option>
+        </select> 
+
+        <h3>Telephone Number*</h3>
+        <input type="tel" placeholder="Enter Your Mobile Number" name="mobile_number" required>
+
+        <br><br>
+        
+        <h3>Email*</h3>
+        <input type="email" placeholder="Enter Your Email-Id" name="email_id" required>
+
+        <br><br>
+
+        <h3>Residental Address*</h3>
+        <input type="text" placeholder="Door No" name="door_no" required>
+        <br><br>
+        <input type="text" placeholder="Street Address" name="street_address" required>
+        <br><br>
+        <input type="text" placeholder="City" name="city" required>
+        <input type="text" placeholder="State" name="state" required>
+        <br><br>
+        <input type="numner" placeholder="pincode" name="pincode" required>
+        <br><br>
+
+        <input type="checkbox"><span>Terms and Conditions</span>
+        <br><br>
+        <input type="submit">
+
+    </form>
+
+</body>
+
+</html>
